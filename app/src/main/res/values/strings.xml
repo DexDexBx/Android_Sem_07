@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">BashX_07</string>
     <string name="about_us_acercade">Acerca de ...</string>
+    <string name="descripcion">Esta es una aplicacion para reportes de una empresa</string>
 </resources>
