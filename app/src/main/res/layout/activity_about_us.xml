@@ -24,6 +24,7 @@
             android:layout_height="wrap_content"
             android:text="@string/descripcion">
             //yo estuve aqui
+            //Hola x
 
         </TextView>
     </LinearLayout>
