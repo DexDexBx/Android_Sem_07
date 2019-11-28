@@ -25,6 +25,7 @@
             android:text="@string/descripcion">
             //yo estuve aqui
             //Hola x
+            //I Love X
 
         </TextView>
     </LinearLayout>
