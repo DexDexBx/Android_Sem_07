@@ -29,7 +29,7 @@ public class AuthActivity extends AppCompatActivity {
 
 
                 if (Users.passwordInValid(txtUser.getText().toString(),txtPassword.getText().toString())) {
-                    Intent o = new Intent(AuthActivity.this, MainActivity.class);
+                    Intent o = new Intent(AuthActivity.this, ProductDetailsActivity.class);
                     startActivity(o);
                 }
             }

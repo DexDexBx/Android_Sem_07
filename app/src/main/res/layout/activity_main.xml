@@ -28,7 +28,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="2"
-            android:src="@mipmap/ic_launcher"></ImageButton>
+            android:src="@mipmap/ic_launcher"
+            android:contentDescription="TODO"></ImageButton>
 
         <LinearLayout
             android:layout_weight="3"
@@ -39,7 +40,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="MacBook Pro">
+                android:text="Celular Nokia">
             </TextView>
             <TextView
                 android:layout_width="match_parent"
@@ -54,7 +55,7 @@
                 <Button
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Comprar"></Button>
+                    android:text="Detalles"></Button>
 
                 <ImageButton
                     android:layout_width="wrap_content"
@@ -100,7 +101,7 @@
                 <Button
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Comprar"></Button>
+                    android:text="Detalles"></Button>
 
                 <ImageButton
                     android:layout_width="wrap_content"
@@ -146,7 +147,7 @@
                 <Button
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Comprar"></Button>
+                    android:text="Detalles"></Button>
 
                 <ImageButton
                     android:layout_width="wrap_content"
@@ -156,6 +157,52 @@
             </LinearLayout>
         </LinearLayout>
     </LinearLayout>
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="5">
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:src="@mipmap/ic_launcher"></ImageButton>
+
+            <LinearLayout
+                android:layout_weight="3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Toshiba 11 Pro">
+                </TextView>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="$ 1000.00">
+                </TextView>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Detalles"></Button>
+
+                    <ImageButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@android:drawable/btn_star_big_on"></ImageButton>
+
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
