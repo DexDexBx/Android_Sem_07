@@ -23,10 +23,6 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/descripcion">
-            //yo estuve aqui
-            //Hola x
-            //I Love X
-
         </TextView>
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
