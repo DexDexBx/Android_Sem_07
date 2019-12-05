@@ -1,5 +1,14 @@
 <resources>
     <string name="app_name">BashX_07</string>
     <string name="about_us_acercade">Acerca de ...</string>
-    <string name="descripcion">Esta es una aplicacion para reportes de una Marisqueria</string>
+    <string name="descripcion">Esta aplicación esta orientada a generar y visualizar
+    los reportes de una Marisqueria Picanteria.
+    Con esta aplicación el administrador de la empresa
+    podra visualizar los reportes de venta, almacen y usuario que se manejan dentro de la empresa;
+    lo cualhara mas facil poder visualizar tus reportes desde cualquier lugar en donde te encuentres
+    ya que lo podras hacer desde tu movil ... !!</string>
+    <string name="autores">Autores de la Aplicación ...</string>
+    <string name="autor1">Cerron Hinostroza Betzabe</string>
+    <string name="autor2">Soto quilca Ketmo Jhan</string>
+    <string name="autor3">Yalico Mrza Jhonatan</string>
 </resources>
