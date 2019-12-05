@@ -12,5 +12,9 @@
         <item name="android:windowBackground">@drawable/backgroud</item>
     </style>
 
+    <style name="LoginTheme" parent="Theme.AppCompat.NoActionBar">
+
+    </style>
+
 
 </resources>

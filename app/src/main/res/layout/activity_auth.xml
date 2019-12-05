@@ -10,10 +10,16 @@
         android:layout_height="match_parent"
         android:orientation="vertical">
 
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="user" />
+            android:text="User"
+            android:gravity="center"/>
 
         <EditText
             android:id="@+id/txtUser"
@@ -23,7 +29,8 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="password" />
+            android:text="Password"
+            android:gravity="center"/>
 
         <EditText
             android:id="@+id/txtPassword"
